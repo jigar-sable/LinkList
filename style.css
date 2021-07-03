@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.profile{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+}
+.profile img:hover{
+    transform: scale(1.1);
+}
+.profile h3{
+    font-size: 1.2rem;
+    color: #fff;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+.profile p{
+    font-size: .8rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+.links-list .link{
+    border: 2px solid #fff;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    padding: .8rem;
+    cursor: pointer;
+    transition: .3s;
+    flex-wrap: wrap;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.1);
+}
+.links-list .link:hover{
+    background: #fff;
+    transform: scale(1.04);
+}
+.links-list .link:hover i{
+    color: #4a00e0;
+}
+.links-list .link:hover p{
+    color: #4a00e0;
+}
+.link i{
+    color: #fff;
+    padding-left: .5rem;
+    padding-right: 2rem;
+    position: relative;
+    font-size: 1.3rem;
+}
+.link p{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .06rem;
+    padding-right: 14rem;
+    padding-left: 8rem;
+}
+
+@media (max-width:450px){
+    .links-list .link{
+        width: 100%;
+    }
+    .link img{
+        padding-right: 1rem;
+    }
+    .link p{
+        padding-right: 4rem;
+        padding-left: 1rem;
+    }
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.contact i{
+    padding: .6rem;
+    border: 1.5px solid #fff;
+    margin: .5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+}
+.contact i:hover{
+    background: #fff;
+    color: #4a00e0;
+    transform: scale(1.1);
+}
+footer p{
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(201, 200, 200);
+    margin-bottom: 1rem;
+}
