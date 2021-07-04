@@ -1,5 +1,4 @@
 # LinkList
-All major profile links in a single website.
 
 [Visit Now](https://jigar-sable.github.io/LinkList) 🚀
 
@@ -13,7 +12,7 @@ All major profile links in a single website.
 
 ## Overview
 
-JavaScript Projects Site includes major projects working on single site.
+All major profile links in a single website.
 Made with basic HTML and CSS.
 
 ## Tech Stack
